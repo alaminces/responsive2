@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.header {
+    padding: 15px 5px;
+}
+.logo {
+    width: 30%;
+    float: left;
+}
+
+.logo img {
+    width: 20%;
+}
+.header-right {
+    width: 70%;
+    float: left;
+}
+.menu {
+    float: right;
+}
+.menu li {
+    display: inline-block;
+}
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 15px 0 15px 50px;
+    line-height: 42px;
+    transition: .5s;
+}
+.menu li a:hover {
+    color: lime;
+}
+/* banner section */
+.banner {
+    width: 100%;
+    background: url('../img/banner.jpg') no-repeat center center / cover;
+    padding: 120px 200px;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+}
+.banner h2 {
+    font-size: 45px;
+    text-transform: capitalize;
+    
+}
+.banner p {
+    line-height: 28px;
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+.banner a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 6px;
+    background: #fff;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.banner a:hover {
+    background: rgb(17, 144, 228);
+    color: #fff;
+}
+
+.services {
+    overflow: hidden;
+    padding: 80px 0;
+}
+
+.service {
+    width: 25%;
+    float: left;
+    padding: 20px;
+    text-align: justify;
+}
+.service h3 {
+    font-size: 30px;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+.service p {
+    font-size: 17px;
+}
+
+.footer {
+    background: #e50577;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
